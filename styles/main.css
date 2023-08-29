@@ -1,0 +1,324 @@
+@font-face {
+  font-family: Poppins;
+  src: url("../assets/fonts/poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Quick Kiss Personal Use;
+  src: url("../assets/fonts/quick_kiss/Quick_Kiss.ttf");
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.banner-wrapper {
+  background-image: url("../assets/img/main_bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 967px;
+  position: relative;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+}
+
+.banner-wrapper .header {
+  padding: 25px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-wrapper .header .nav .nav-link {
+  text-decoration: none;
+  margin-right: 25px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.banner-wrapper .header .nav .hidden {
+  display: none;
+}
+
+.banner-wrapper .header .nav .sign-up {
+  box-sizing: border-box;
+  padding: 15px 50px;
+  background-color: #ffc814;
+  color: #1f3347;
+}
+
+.banner-wrapper .header .nav .sign-up:hover {
+  background-color: #1f3347;
+  color: #ffc814;
+}
+
+.banner-wrapper .title {
+  margin: 130px 0 0 0;
+  width: 40%;
+}
+
+.banner-wrapper .title .title-heading {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76px;
+}
+
+.banner-wrapper .title .title-text {
+  margin: 20px 0 0 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.banner-wrapper .title .title-buttons {
+  margin: 40px 0 0 0;
+}
+
+.banner-wrapper .title .title-buttons .button {
+  width: 160px;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  border-radius: 4px;
+  color: #22283c;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 15px 0 0;
+}
+
+.banner-wrapper .title .title-buttons .button:hover {
+  background-color: #ffc814;
+}
+
+.banner-wrapper .booking {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: -120px;
+  width: 70%;
+}
+
+.banner-wrapper .booking .booking-type {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.banner-wrapper .booking .booking-type .booking-item {
+  width: 23%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.banner-wrapper .booking .booking-type .booking-item:hover {
+  background-color: #ffc814;
+}
+
+.banner-wrapper .booking .booking-type .booking-item .booking-item-icon {
+  margin: 10px;
+}
+
+.banner-wrapper .booking .booking-type .booking-item .booking-item-name {
+  color: #1f3347;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.banner-wrapper .form-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px 30px;
+  background-color: #fff;
+  box-shadow: 0px 6px 24px 0px #e4e2ee;
+}
+
+.banner-wrapper .form-container .form-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 15%;
+}
+
+.banner-wrapper .form-container .form-item .form-item-name {
+  color: #1f3347;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.banner-wrapper .form-container .form-item .form-item-value {
+  box-sizing: border-box;
+  padding: 20px 10px;
+  color: #70717b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  border: none;
+  box-shadow: 0px 6px 24px 0px #e4e2ee;
+}
+
+.banner-wrapper .form-container .form-item .form-item-submit {
+  background-color: #ffc814;
+  color: #22283c;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.banner-wrapper .form-container .form-item .form-item-submit:hover {
+  background-color: #22283c;
+  color: #ffc814;
+}
+
+.about-wrapper {
+  background-image: url("../assets/img/secondary_bg.png");
+  background-repeat: no-repeat;
+  background-position: 98% 100%;
+  background-size: 20%;
+  box-sizing: border-box;
+  padding: 80px 0 0 0;
+}
+
+.about-wrapper .about {
+  background-image: url("../assets/img/bg_text.png");
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 150px 0 0 0;
+}
+
+.about-wrapper .about .about-img-container {
+  width: 50%;
+  position: relative;
+}
+
+.about-wrapper .about .about-img-container .about-secondary-img {
+  position: absolute;
+  bottom: -30px;
+  right: 40px;
+}
+
+.about-wrapper .about .about-info {
+  width: 40%;
+}
+
+.about-wrapper .about .about-info .info-heading {
+  color: #ffc814;
+  font-family: Quick Kiss Personal Use;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 15px;
+  margin: 10px 0;
+}
+
+.about-wrapper .about .about-info .info-subheading {
+  color: #1f3347;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: capitalize;
+  margin: 0 0 30px 0;
+}
+
+.about-wrapper .about .about-info .info-text {
+  color: #9da1b4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.about-wrapper .about .about-info .info-list {
+  margin: 20px 0 0 0;
+  color: #9da1b4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  list-style-type: none;
+}
+
+.about-wrapper .about .about-info .info-list .info-list-item::before {
+  content: "\2713";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  margin-right: 10px;
+  color: #9da1b4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  border: 1px solid #9da1b4;
+}
+
+.about-wrapper .about .about-info .info-stats {
+  margin: 35px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-wrapper .about .about-info .info-stats .stats-item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-wrapper .about .about-info .info-stats .stats-item .stats-heading {
+  margin: 0 0 10px 0;
+  color: #ffc814;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.about-wrapper .about .about-info .info-stats .stats-item .stats-text {
+  color: #9da1b4;
+  font-size: 16px;
+  font-weight: 500;
+}
+.about-wrapper .about .about-info .button-container {
+  display: flex;
+}
+
+.about-wrapper .about .about-info .info-button {
+  margin: 50px 0 0 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 20px 40px;
+  background-color: #ffc814;
+  color: #1f3347;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.about-wrapper .about .about-info .info-button:hover {
+  background-color: #1f3347;
+  color: #ffc814;
+}
+

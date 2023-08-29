@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/responsive.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="banner-wrapper">
+        <div class="content">
+          <header class="header">
+            <img src="./assets/img/./logo.png" alt="logo" class="logo-hide"/>
+            <nav class="nav">
+              <a href="#" class="nav-link hidden">Navigation</a>
+              <a href="#" class="nav-link hide">Home</a>
+              <a href="#" class="nav-link hide">Tours</a>
+              <a href="#" class="nav-link hide">Hotel</a>
+              <a href="#" class="nav-link hide">Gallery</a>
+              <a href="#" class="nav-link hide">Pages</a>
+              <a href="#" class="nav-link hide">Blog</a>
+              <a href="#" class="nav-link hide">Contact</a>
+              <a href="#" class="nav-link login">Login</a>
+              <a href="#" class="nav-link sign-up">Sign UP</a>
+            </nav>
+          </header>
+          <div class="title">
+            <h1 class="title-heading">
+              It's a Big World Out There, Go Explore
+            </h1>
+            <p class="title-text">
+              Conveniently customize proactive web services for leveraged
+              without continualliery aggregate fricctionle ou wellies
+              richard.and very customize continually.
+            </p>
+            <div class="title-buttons">
+              <button class="button">Get Exploration</button>
+              <button class="button">Read More</button>
+            </div>
+          </div>
+          <div class="booking">
+            <div class="booking-type">
+              <div class="booking-item">
+                <img
+                  src="./assets/img/hotel_ico.svg"
+                  alt="Hotel"
+                  class="booking-item-icon"
+                />
+                <span class="booking-item-name">Hotel</span>
+              </div>
+              <div class="booking-item">
+                <img
+                  src="./assets/img/flight_ico.svg"
+                  alt="Plane"
+                  class="booking-item-icon"
+                />
+                <span class="booking-item-name">Flight</span>
+              </div>
+              <div class="booking-item">
+                <img
+                  src="./assets/img/car_ico.svg"
+                  alt="Car"
+                  class="booking-item-icon"
+                />
+                <span class="booking-item-name">Car</span>
+              </div>
+              <div class="booking-item">
+                <img
+                  src="./assets/img/ship_ico.svg"
+                  alt="Ship"
+                  class="booking-item-icon"
+                />
+                <span class="booking-item-name">Ship</span>
+              </div>
+            </div>
+            <form class="form-container">
+              <div class="form-item">
+                <div class="form-item-name">Your destination</div>
+                <input
+                  class="form-item-value"
+                  name="dest-country"
+                  value="Thailand"
+                  required
+                />
+              </div>
+              <div class="form-item">
+                <div class="form-item-name">
+                  Check in <br />
+                  (DD-MM-YY)
+                </div>
+                <input
+                  type="text"
+                  name="checkin-date"
+                  pattern="\d{2}-\d{2}-\d{2}"
+                  value="01-26-22"
+                  class="form-item-value"
+                  required
+                />
+              </div>
+              <div class="form-item">
+                <div class="form-item-name">
+                  Check out <br />
+                  (DD-MM-YY)
+                </div>
+                <input
+                  type="text"
+                  name="checkout-date"
+                  pattern="\d{2}-\d{2}-\d{2}"
+                  value="01-30-22"
+                  class="form-item-value"
+                  required
+                />
+              </div>
+              <div class="form-item">
+                <div class="form-item-name">Child</div>
+                <input
+                  type="number"
+                  name="children-quantity"
+                  value="2"
+                  class="form-item-value"
+                  required
+                />
+              </div>
+              <div class="form-item">
+                <div class="form-item-name">Adult</div>
+                <input
+                  type="number"
+                  name="adult-quantity"
+                  value="3"
+                  class="form-item-value"
+                  required
+                />
+              </div>
+              <div class="form-item">
+                <div class="form-item-name"></div>
+                <input
+                  type="submit"
+                  value="Book Now"
+                  class="form-item-value form-item-submit"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="about-wrapper">
+        <div class="content about">
+          <div class="about-img-container">
+            <img
+              src="./assets/img/primary_img.png"
+              alt="Lake and mountains"
+              class="about-main-img"
+            />
+            <img
+              src="./assets/img/secondary_img.png"
+              alt="Girl with tickets"
+              class="about-secondary-img hide"
+            />
+          </div>
+          <div class="about-info">
+            <h2 class="info-heading">About us</h2>
+            <h3 class="info-subheading">
+              World Best Travel Agency Company Since 2008.
+            </h3>
+            <p class="info-text">
+              Continually productize compelling quality for packed with elated
+              productize compelling quality for packed in with all elated Them
+              Setting up to website and creating pages.
+            </p>
+            <ul class="info-list">
+              <li class="info-list-item">
+                We providing compe quality for packed with elated different.
+              </li>
+              <li class="info-list-item">
+                We are one of compelling quality for packed with leading.
+              </li>
+              <li class="info-list-item">
+                Learn how compelling quality for packed with elated grow.
+              </li>
+            </ul>
+            <div class="info-stats">
+              <div class="stats-item">
+                <h4 class="stats-heading">20+</h4>
+                <span class="stats-text">Year <br />Experience</span>
+              </div>
+              <div class="stats-item">
+                <h4 class="stats-heading">250+</h4>
+                <span class="stats-text">Destination <br />Collaboration</span>
+              </div>
+              <div class="stats-item">
+                <h4 class="stats-heading">170K+</h4>
+                <span class="stats-text">Happy <br />Customers</span>
+              </div>
+            </div>
+            <div class="button-container">
+              <a href="#" class="info-button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

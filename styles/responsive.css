@@ -1,0 +1,154 @@
+@media (max-width: 1700px) {
+  .banner-wrapper .title {
+    width: 50%;
+  }
+  .banner-wrapper .booking {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1368px) {
+  .content {
+    width: 80%;
+  }
+  .banner-wrapper .booking .booking-type {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1220px) {
+  .content {
+    width: 95%;
+  }
+  .about-wrapper {
+    background-image: none;
+  }
+}
+
+@media (max-width: 1010px) {
+  .hide {
+    display: none;
+  }
+
+  .banner-wrapper .title {
+    width: 70%;
+    margin: 130px auto 0;
+  }
+  .banner-wrapper .header .nav .hidden {
+    display: inline-block;
+  }
+
+  .banner-wrapper .booking {
+    width: 90%;
+    margin: auto;
+  }
+
+  .banner-wrapper .booking .booking-type {
+    width: 80%;
+    margin: auto;
+  }
+
+  .about-wrapper .about .about-img-container {
+    width: 40%;
+  }
+
+  .about-wrapper .about .about-img-container .about-main-img {
+    width: 100%;
+  }
+
+  .about-wrapper .about .about-info {
+    width: 60%;
+  }
+}
+
+@media (max-width: 832px) {
+  .banner-wrapper .form-container .form-item {
+    width: 30%;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo-hide {
+    display: none;
+  }
+
+  .banner-wrapper .header .nav {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .banner-wrapper .booking .booking-type {
+    width: 100%;
+  }
+
+  .banner-wrapper .form-container .form-item {
+    width: 48%;
+  }
+
+  .banner-wrapper .booking {
+    position: static;
+    margin: 100px 0 0 0;
+    width: 100%;
+  }
+
+  .banner-wrapper .title {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .banner-wrapper .title .title-buttons {
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .banner-wrapper .title .title-buttons .button {
+    width: 50%;
+  }
+
+  .about-wrapper .about {
+    padding: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-wrapper .about .about-img-container,
+  .about-wrapper .about .about-info {
+    width: 100%;
+  }
+
+  .about-wrapper .about .about-info .info-button {
+    margin: 50px auto;
+  }
+}
+
+@media (max-width: 468px) {
+  .banner-wrapper .booking .booking-type .booking-item {
+    width: 48%;
+  }
+
+  .banner-wrapper .form-container .form-item {
+    width: 100%;
+  }
+
+  .banner-wrapper .header .nav .nav-link {
+    margin-right: 5px;
+  }
+
+  .banner-wrapper .header .nav .sign-up {
+    padding: 15px 10px;
+  }
+
+  .about-wrapper .about .about-info .info-stats {
+    flex-direction: column;
+  }
+  .about-wrapper .about .about-info .info-stats .stats-item {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+}
